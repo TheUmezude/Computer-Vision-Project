@@ -1,28 +1,30 @@
-# Sama Solutions Engineering Technical Excercise
+# Nkem's solution to Sama Solutions Engineering Technical Excercise
 
-At Sama we provide [training data](https://www.samasource.com/blog/2017/12/18/what-is-training-data) for computer vision models. Whether we're dealing with [image annotation applications](https://www.samasource.com/blog/2018/12/04/training-your-ai-in-3d), metrics to benchmark how well our services perform, or tools to help integrate customer data pipelines, reporting and working with images is part of our DNA.
-
-
-## Exercise 1 (Architecture & Design)
-
-We anticipate this exercise should take about a couple hours. We are more interested in your approach than perfection. 
-
-Write a program in Python that ingests a json (sample-json.json), and generates the following output:
-
-- Number of unique shape types
-- Frequency of each shape and all labels associated with the shapes (for example: 'rectangle' - 'car': 74)
-- Two different images generated from the data, where:
-  - Colors are based on shape types
-  - Colors are based on annotation label
-
-Check the 3 sets of samples in Question_1_Example_Images for reference. The dimensions of the original image were 3840 × 2160.
+Nkem is a motivated erudite and team player with strong analytical skills. Nkem holds a Master of Applied Sciences (MASc.) research-based degree, from the Department of Mechanical, Industrial & Aerospace Engineering (MIAE) at Concordia University, Montreal, Canada. Nkem has  4+ years’ combined experience working with Robotics & autonomous systems, Data analysis, Software development, Artificial Intelligence (AI), Design, 3D Printing, CNC manufacturing and Energy Systems.
+Nkem is skilled in several technologies, but his highest proficiencies are in the following technologies; Python, C++, G-Code, SQL (PostgreSQL, MySQL), Arduino, MatLab, HTML, CSS, Pandas, Numpy, SOLIDWORKS, CATIA V5, ANSYS, AutoCAD, AutoDesk Inventor, Prolight 1000 Lathe Machine, Prolight 3000 Turning Machine, OpenCIM, FDM, DLP, PolyJet, MicroSoft Office Applications and LaTex. 
+Nkem is a recipient of the ‘Golden Key International Honor Society (GKIHS)’ honorary membership, a certificate of appreciation from the ‘International Conference on Robotics and Automation (ICRA)’, the finalist award for the BSN-NYSC nationwide essay writing competition, and several scholarships from the ‘Pierre-Arbour Foundation’, Concordia University and the ‘Government of Ireland - International Education Scholarship (GOI-IES)’. 
 
 
-## Exercise 2 (Code review and Bug fix)
+## Solution 1 (Architecture & Design)
 
-The python script "Question_2.py" is used to identify corrupt images in a folder. The user reports that the script is running incorrectly, and they are not sure what is causing the error. The folder they are running the script on is "Question_2_Images". Given the python script and 1 sample corrupt image (indexed_5d5da9038aa716043cb777f4_0e2ee618-dab5-48c1-b13f-13ca3f8326e6.png), can you diagnose and fix the error(s)?
+1) The answers to the question 1 are found in the python script titled: 'Nkem_Question_1_Solution.py'
+---> Run the script, a prompt would be displayed to enter the file-path of the '.json' file you wish to analyze.
+---> After entering the file-path, another prompt would be shown to ask you the operation you wish to perform.
+--->   1. Get number of unique shape types.
+--->   2. Get the frequency of each shape type.
+--->   3. Get the frequency of the labels associated with the unique shape types.
+--->   4. Generate an image where color is based on shape type (image would be saved to your PC as 'result1.png')
+--->   5. Generate an image where color is based on annotation label (image would be saved to your PC as 'result2.png').
+
+---> When you select an option, the program carries out the processing and gives the result. 
+---> For options 4 and 5, the program generates a picture file and saves to the folder the script is contained in. 
+---> Please note that I made the images to be line images, instead of block images, because I felt it was more visually pleasant.
+---> I can change that if required.
 
 
-## General instructions
+## Solution 2 (Code review and Bug fix)
 
-Please clone this repository and share the response with abha2 and sveta-sama.
+2) The answers to the question 2 are found in the python script titled: 'Nkem_Question_2_Solution.py'
+---> Run the script, a prompt would be displayed asking you to enter the folder name of the images you want to analyze.
+---> Enter JUST the folder name. Not the Path (since the folder is contained in the folder that the script is).
+---> Open the excel file to view the results. 
