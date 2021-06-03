@@ -1,9 +1,5 @@
 # Nkem's solution to Sama Solutions Engineering Technical Excercise
 
-Nkem is a motivated erudite and team player with strong analytical skills. Nkem holds a Master of Applied Sciences (MASc.) research-based degree, from the Department of Mechanical, Industrial & Aerospace Engineering (MIAE) at Concordia University, Montreal, Canada. Nkem has  4+ years’ combined experience working with Robotics & autonomous systems, Data analysis, Software development, Artificial Intelligence (AI), Design, 3D Printing, CNC manufacturing and Energy Systems.
-Nkem is skilled in several technologies, but his highest proficiencies are in the following technologies; Python, C++, G-Code, SQL (PostgreSQL, MySQL), Arduino, MatLab, HTML, CSS, Pandas, Numpy, SOLIDWORKS, CATIA V5, ANSYS, AutoCAD, AutoDesk Inventor, Prolight 1000 Lathe Machine, Prolight 3000 Turning Machine, OpenCIM, FDM, DLP, PolyJet, MicroSoft Office Applications and LaTex. 
-Nkem is a recipient of the ‘Golden Key International Honor Society (GKIHS)’ honorary membership, a certificate of appreciation from the ‘International Conference on Robotics and Automation (ICRA)’, the finalist award for the BSN-NYSC nationwide essay writing competition, and several scholarships from the ‘Pierre-Arbour Foundation’, Concordia University and the ‘Government of Ireland - International Education Scholarship (GOI-IES)’. 
-
 
 ## Solution 1 (Architecture & Design)
 
